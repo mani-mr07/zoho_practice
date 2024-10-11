@@ -48,6 +48,12 @@ public class Main {
                     for(Passenger p:passengers){
                         System.out.println(p.id+" "+p.name+" "+p.allotedBerth+" "+p.ticketType);
                     }
+                    break;
+                }
+                case 4:
+                {
+                    System.out.println("availbleBerth");
+                    Passenger.printAvailable();
                 }
             }
         }

@@ -117,4 +117,9 @@ public class Passenger {
       }
         return null;
     }
+    public static void printAvailable(){
+        for(Map.Entry<Character,Integer>entries: berth.entrySet()){
+            System.out.println(entries.getKey() +" "+ entries.getValue());
+        }
+    }
 }
